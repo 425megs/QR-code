@@ -1,6 +1,7 @@
 * {
     background-color: pink;
     margin: 0px;
+    font-family: 'Ms Madi', cursive;
 }
 
 .container {
@@ -14,17 +15,20 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    border: solid 5px white;
     max-width: 30%;
 }
 
-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+.QR-code {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 150px;
+    height: 250px;
+    /* border: solid 5px pink; */
 }
 
 p {
     background-color: rgb(249, 209, 216);
     display: block;
+    font-size: 50px;
 }
