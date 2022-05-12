@@ -1,36 +1,30 @@
 * {
-    background-color: #b5d5f5;
+    background-color: pink;
     margin: 0px;
 }
 
-.outer-box {
-    background-color: aliceblue;
-    border-radius: 25px;
-    width: 300px;
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.QR-box {
+    background-color: rgb(249, 209, 216);
+    display: inline-block;
     justify-content: center;
     align-items: center;
     margin: auto;
-    height: 450px;
-}
-
-p {
-    background-color:aliceblue;
-    padding: 20px;
+    border: solid 5px white;
+    max-width: 30%;
 }
 
 img {
-    border-radius: 25px;
-    background-color: aliceblue;
-    height: 200px;
     width: 200px;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 50px;
+    height: 200px;
+    border-radius: 50%;
 }
 
-footer {
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+p {
+    background-color: rgb(249, 209, 216);
+    display: block;
 }
